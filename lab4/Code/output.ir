@@ -1,0 +1,10 @@
+FUNCTION fact : 
+PARAM v1 
+t3 := v1 + #1 
+v1 := t3 
+RETURN v1 
+FUNCTION main : 
+ARG #3 
+t7 := CALL fact 
+v2 := t7 
+RETURN #0 
